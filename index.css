@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #20639b;
+  color: #f6d55c;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.current-weather {
+  border: 4px double #ed553b;
+  width: 55%;
+  margin: 0 auto;
+  background-color: #173f5f;
+  margin-top: 20px;
+}
+
+.astronomy-card {
+  border: 4px double #ed553b;
+  width: 55%;
+  margin: 0 auto;
+  background-color: #173f5f;
+  margin-top: 20px;
+}
+
+.sports-card {
+  border: 4px double #ed553b;
+  width: 55%;
+  margin: 0 auto;
+  background-color: #173f5f;
+  margin-top: 20px;
+}
+
+input {
+  margin-top: 20px;
+  background-color: #173f5f;
+  height: 34px;
+  color: #f6d55c;
+}
+
+.button-search {
+  background-color: #173f5f;
+  color: #ed553b;
+  width: 100px;
+  height: 40px;
+}
+
+
+.header {
+  margin-top: 10px; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.links {
+  color: #f6d55c;
+  font-size: 18px;
+}
+
