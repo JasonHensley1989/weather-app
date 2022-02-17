@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import axios from 'axios';
 import WeatherHistoryCard from '../components/card-component/WeatherHistoryCard';
 
+
 const WeatherHistory = () => {
 
   const [weatherHistoryData, setWeatherHistoryData] = useState([]);
