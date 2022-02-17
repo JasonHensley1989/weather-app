@@ -6,7 +6,7 @@ import {
 const Header = () => {
   return(
    <div className='header'>
-       <Link className="links" to="/">Home</Link>
+       <Link className="links" to="/home">Home</Link>
        <Link className="links" to="/astronomy">Astronomy</Link>
        <Link className="links" to="/sports">Sports</Link>
        <Link className="links" to="/weatherhistory">Weather History</Link>
