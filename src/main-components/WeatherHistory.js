@@ -4,13 +4,13 @@ import WeatherHistoryCard from '../components/card-component/WeatherHistoryCard'
 
 const WeatherHistory = () => {
 
-  const [weatherHistoryData, setWeatherHistoryData] = useState();
+  const [weatherHistoryData, setWeatherHistoryData] = useState([]);
   const [userLocation, setUserLocation] = useState('');
   
 
   const apiKey = 'b739f9dce98a4420b36175641221102';
 
-  const baseUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${userLocation}&days=5`;
+  const baseUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${userLocation}&days=3`;
 
   const handleChange = (e) => {
     setUserLocation(e.target.value);
@@ -21,7 +21,7 @@ const WeatherHistory = () => {
     axios
       .get(baseUrl)
       .then((info) => {
-        setWeatherHistoryData(info.data.forecast.forecastday.toString());
+        setWeatherHistoryData(info.data.forecast[0]);
         console.log(weatherHistoryData);
       })
       .catch((err) => {
