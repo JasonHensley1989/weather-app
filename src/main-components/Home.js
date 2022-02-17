@@ -10,7 +10,7 @@ const Home = () => {
 
   const apiKey = 'b739f9dce98a4420b36175641221102';
 
-  const baseUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${userLocation}&aqi=no`;
+  const baseUrl = `https://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${userLocation}&aqi=no`;
 
   const handleChange = (e) => {
     setUserLocation(e.target.value);

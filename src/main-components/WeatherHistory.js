@@ -10,7 +10,7 @@ const WeatherHistory = () => {
 
   const apiKey = 'b739f9dce98a4420b36175641221102';
 
-  const baseUrl = `http://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${userLocation}&days=5`;
+  const baseUrl = `https://api.weatherapi.com/v1/forecast.json?key=${apiKey}&q=${userLocation}&days=5`;
 
   const handleChange = (e) => {
     setUserLocation(e.target.value);
