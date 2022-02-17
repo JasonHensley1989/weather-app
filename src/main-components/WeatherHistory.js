@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-// import WeatherHistoryCard from '../components/card-component/WeatherHistoryCard';
+import WeatherHistoryCard from '../components/card-component/WeatherHistoryCard';
 
 const WeatherHistory = () => {
 
@@ -21,7 +21,7 @@ const WeatherHistory = () => {
     axios
       .get(baseUrl)
       .then((info) => {
-        setWeatherHistoryData(info.data.forecast);
+        setWeatherHistoryData(info.data.forecast.forecastday);
         console.log(weatherHistoryData);
       })
       .catch((err) => {
@@ -30,11 +30,11 @@ const WeatherHistory = () => {
     }
     
     
-    // const forecastInfo = weatherHistoryData.map((info, index) => {
-    //   return (
-    //     <div> <WeatherHistoryCard date={info.date} key={index}/> </div>
-    //   )
-    // })
+    const forecastInfo = weatherHistoryData.map((info, index) => {
+      return ( 
+        <div> <WeatherHistoryCard date={info.date} key={index} humidity={info.day.avghumidity} temp={info.day.avgtemp_f} visibility={info.day.avgvis_miles} condition={info.day.condition.text} icon={info.day.condition.icon}/> </div>
+      )
+    })
 
 
   return (
@@ -47,7 +47,7 @@ const WeatherHistory = () => {
       
       <h1>Weather History</h1>
       {/* {  weatherHistoryData === [] || weatherHistoryData === undefined ? <div></div> : forecastInfo} */}
-    
+      {forecastInfo}
       
     </div>
   )
