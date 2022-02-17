@@ -22,7 +22,6 @@ const Home = () => {
       .get(baseUrl)
       .then((info) => {
         setWeatherData(info.data);
-        console.log(weatherData);
       })
       .catch((err) => {
         console.log("NOOOOO!!!!", err.message);

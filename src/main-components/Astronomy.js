@@ -21,7 +21,6 @@ const Astronomy = () => {
       .get(baseUrl)
       .then((info) => {
         setAstronomyData(info.data);
-        console.log(astronomyData);
       })
       .catch((err) => {
         console.log("NOOOOO!!!!", err.message);

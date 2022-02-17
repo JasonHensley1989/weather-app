@@ -21,7 +21,6 @@ const Sports = () => {
       .get(baseUrl)
       .then((info) => {
         setSportsData(info.data.football);
-        console.log(sportsData);
       })
       .catch((err) => {
         console.log("NOOOOO!!!!", err.message);

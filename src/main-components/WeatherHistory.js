@@ -21,7 +21,7 @@ const WeatherHistory = () => {
     axios
       .get(baseUrl)
       .then((info) => {
-        setWeatherHistoryData(info.data.forecastday);
+        setWeatherHistoryData(info.data.forecast);
         console.log(weatherHistoryData);
       })
       .catch((err) => {
@@ -46,7 +46,6 @@ const WeatherHistory = () => {
       <br/>
       
       <h1>Weather History</h1>
-
       {/* {  weatherHistoryData === [] || weatherHistoryData === undefined ? <div></div> : forecastInfo} */}
     
       
