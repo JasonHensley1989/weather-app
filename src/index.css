@@ -59,6 +59,12 @@ input {
   justify-content: space-around;
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; 
+}
 .links {
   color: #f6d55c;
   font-size: 18px;
