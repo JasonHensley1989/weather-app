@@ -5,8 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #20639b;
-  color: #f6d55c;
+  background: url("https://images.pexels.com/photos/9754/mountains-clouds-forest-fog.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  color: #1b2c34;
 }
 
 code {
@@ -15,23 +15,25 @@ code {
 }
 
 .current-weather {
-  border: 4px double #ed553b;
+  border: 6px double #9ea6a2;
+  border-radius: 5%;
   width: 55%;
   margin: 0 auto;
-  background-color: #173f5f;
+  background-color: #d8d7d0;
   margin-top: 20px;
 }
 
 .astronomy-card {
-  border: 4px double #ed553b;
+  border: 6px double #9ea6a2;
+  border-radius: 5%;
   width: 55%;
   margin: 0 auto;
-  background-color: #173f5f;
+  background-color: #d8d7d0;
   margin-top: 20px;
 }
 
 .sports-card {
-  border: 4px double #ed553b;
+  border: 4px double #9ea6a2;
   width: 55%;
   margin: 0 auto;
   background-color: #173f5f;
@@ -40,14 +42,14 @@ code {
 
 input {
   margin-top: 20px;
-  background-color: #173f5f;
+  background-color: #1b2c34;
   height: 34px;
-  color: #f6d55c;
+  color: whitesmoke;
 }
 
 .button-search {
-  background-color: #173f5f;
-  color: #ed553b;
+  background-color: #1b2c34;
+  color: whitesmoke;
   width: 100px;
   height: 40px;
 }
@@ -67,7 +69,8 @@ input {
 }
 
 .links {
-  color: #f6d55c;
+  color: #1b2c34;
   font-size: 18px;
 }
+
 

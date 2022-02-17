@@ -10,11 +10,6 @@ const CurrentWeatherCard = ({ cityName, stateName, currentTime, icon, temp, wind
         <img src={icon}/>
         <p>Current Temperature:{temp} Wind: {wind}</p>
     </div>
-    <div className='three-day-forecast'>
-      <section>Tomorrow</section>
-      <section>Day After Tomorrow</section>
-      <section>3 days out</section>
-    </div>
   </div>
   )
 };
