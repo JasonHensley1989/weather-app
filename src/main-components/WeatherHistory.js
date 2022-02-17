@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import axios from 'axios';
-import WeatherHistoryCard from '../components/card-component/WeatherHistoryCard';
+// import WeatherHistoryCard from '../components/card-component/WeatherHistoryCard';
 
 const WeatherHistory = () => {
 
@@ -21,7 +21,7 @@ const WeatherHistory = () => {
     axios
       .get(baseUrl)
       .then((info) => {
-        setWeatherHistoryData(info.data.forecast[0]);
+        setWeatherHistoryData(info.data.forecastday);
         console.log(weatherHistoryData);
       })
       .catch((err) => {
