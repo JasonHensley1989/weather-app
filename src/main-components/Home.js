@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import axios from 'axios';
 import CurrentWeatherCard from '../components/card-component/CurrentWeatherCard';
-import AstronomyCard from '../components/card-component/AstronomyCard';
+
 
 const Home = () => {
 
