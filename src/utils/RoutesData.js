@@ -9,7 +9,7 @@ import Home from '../main-components/Home';
 const RoutesData = () => {
   return (
     <Routes>
-        <Route exact path='/'  element={<Home />}/>
+        <Route exact path='/home'  element={<Home />}/>
         <Route path='/sports'  element={<Sports />}/>
         <Route path='/weatherhistory'  element={<WeatherHistory />}/>
         <Route path='/astronomy'  element={<Astronomy />}/>
