@@ -15,28 +15,29 @@ code {
 }
 
 .current-weather {
-  border: 6px double #9ea6a2;
-  border-radius: 5%;
+  border: 6px double #9eb5a8;
+  border-radius: 1em 1em;
   width: 55%;
   margin: 0 auto;
-  background-color: #d8d7d0;
+  background-color: whitesmoke;
   margin-top: 20px;
 }
 
 .astronomy-card {
   border: 6px double #9ea6a2;
-  border-radius: 5%;
+  border-radius: 1em 1em;
   width: 55%;
   margin: 0 auto;
-  background-color: #d8d7d0;
+  background-color: whitesmoke;
   margin-top: 20px;
 }
 
 .sports-card {
   border: 4px double #9ea6a2;
+  border-radius: 1em 1em;
   width: 55%;
   margin: 0 auto;
-  background-color: #d8d7d0;
+  background-color: whitesmoke;
   margin-top: 20px;
 }
 
