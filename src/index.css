@@ -36,7 +36,7 @@ code {
   border: 4px double #9ea6a2;
   width: 55%;
   margin: 0 auto;
-  background-color: #173f5f;
+  background-color: #d8d7d0;
   margin-top: 20px;
 }
 
@@ -52,8 +52,17 @@ input {
   color: whitesmoke;
   width: 100px;
   height: 40px;
+  position: relative;
 }
 
+.button-search-history {
+  background-color: #1b2c34;
+  color: whitesmoke;
+  width: 100px;
+  height: 40px;
+  position: relative;
+  top: 9.5px;
+}
 
 .header {
   margin-top: 10px; 
@@ -73,4 +82,8 @@ input {
   font-size: 18px;
 }
 
-
+.weather-history-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

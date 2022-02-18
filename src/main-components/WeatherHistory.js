@@ -40,9 +40,8 @@ const WeatherHistory = () => {
 
   return (
     <div>
-      <form onSubmit={handleSubmit}>
-        <input className='location-input'  onChange={handleChange}/>
-        <button className='button-search'>Search by location</button>
+      <form onSubmit={handleSubmit} className='weather-history-inputs'>
+        <input className='location-input'  onChange={handleChange}/><button className='button-search-history'>Search by location</button>
       </form>
       <br/>
       
