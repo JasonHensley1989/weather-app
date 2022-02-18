@@ -21,6 +21,7 @@ code {
   margin: 0 auto;
   background-color: whitesmoke;
   margin-top: 20px;
+  box-shadow: -2px 2px 8px 2px #9eb5a8;
 }
 
 .astronomy-card {
@@ -30,11 +31,13 @@ code {
   margin: 0 auto;
   background-color: whitesmoke;
   margin-top: 20px;
+  box-shadow: -2px 2px 8px 2px #9eb5a8;
 }
 
 .sports-card {
-  border: 4px double #9ea6a2;
+  border: 4px double #6d9782;
   border-radius: 1em 1em;
+  box-shadow: -2px 2px 8px 2px #9eb5a8;
   width: 55%;
   margin: 0 auto;
   background-color: whitesmoke;
@@ -76,6 +79,7 @@ input {
   left: 0;
   bottom: 0;
   width: 100%; 
+  font-size: 32px;
 }
 
 .links {
